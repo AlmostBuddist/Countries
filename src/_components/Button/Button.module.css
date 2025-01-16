@@ -1,0 +1,31 @@
+.my-button {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(135deg, #ffffff50, #00000000);
+  text-align: center;
+  border-radius: 16px;
+  color: white;
+  font-size: 20px;
+  box-shadow: 0px 3px 9px rgb(0, 0, 0, 0.3);
+
+  border: 0;
+
+  cursor: pointer;
+}
+
+.my-button.rounded {
+  border-radius: 4px;
+}
+
+.my-button.icon {
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+}
+
+.my-button.square {
+  border-radius: 0;
+}
